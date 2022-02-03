@@ -21,7 +21,7 @@ spec:
         - containerPort: 80
         volumeMounts:
         - name: website-cm-volume
-          mountPath: /usr/share/nginx/html
+          mountPath: /usr/share/nginx/html/app
       volumes:
       - name: website-cm-volume 
         configMap:
