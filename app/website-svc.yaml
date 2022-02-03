@@ -10,6 +10,6 @@ spec:
     app: argocdrocks
   ports:
   - name: http
-    port: 80
+    port: 8080
     protocol: TCP
     targetPort: 80
